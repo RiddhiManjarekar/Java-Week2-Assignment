@@ -24,9 +24,9 @@ public class Main {
             System.out.println("***** BANKING SYSTEM *****");
             System.out.println("1. Create Savings Account");
             System.out.println("2. Create Current Account");
-            System.out.println("3. Deposit Money");
-            System.out.println("4. Withdraw Money");
-            System.out.println("5. Transfer Money");
+            System.out.println("3. Deposit");
+            System.out.println("4. Withdraw");
+            System.out.println("5. Transfer");
             System.out.println("6. Check Balance");
             System.out.println("7. View Account Statement");
             System.out.println("8. View All Accounts");

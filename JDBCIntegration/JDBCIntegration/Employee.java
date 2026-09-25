@@ -1,4 +1,4 @@
-// package JDBCIntegration;
+package JDBCIntegration;
 
 public class Employee {
 
@@ -14,12 +14,7 @@ public class Employee {
         this.department=department;
         this.salary=salary;
     }
-    // public Employee(int emp_id,String name,String email,String department,double salary){
-    //     this.emp_id=emp_id;
-    //     this.email=email;
-    //     this.department=department;
-    //     this.salary=salary;
-    // }
+
     public int getEmp_id() {
         return emp_id;
     }

@@ -22,7 +22,7 @@ A Java console-based banking system that demonstrates object-oriented programmin
 
 ## Technologies Used
 
-* Java 11+
+* Java 17+
 * Object-Oriented Programming
 * Collections Framework
 * `HashMap`
@@ -82,10 +82,8 @@ Extends `BankAccount`.
 
 It enforces a minimum balance of:
 
-      
 Rs.1000
    
-
 A withdrawal is rejected if it causes the balance to fall below the minimum balance.
 
 ### CurrentAccount
@@ -129,8 +127,7 @@ Account numbers are automatically generated starting from:
 Each newly created account receives the next available account number.
 
 For example:
-
-      
+ 
 11101
 11102
 11103
@@ -139,20 +136,16 @@ For example:
 ## Savings Account Rules
 
 Savings accounts must maintain a minimum balance of:
-
-      
+ 
 Rs.1000
    
 
 For example, if the balance is:
-
-      
+  
 Rs.5000
    
-
 the maximum withdrawal allowed is:
-
-      
+  
 Rs.4000
    
 
@@ -345,19 +338,6 @@ Used in `BankAccount` to store transaction history:
 
 List<Transaction>
 
-
-## Future Improvements
-
-Possible future improvements include:
-
-* Persistent database storage
-* User authentication/PIN
-* Interest calculation for Savings Accounts
-* Account deletion
-* Monthly statements
-* GUI/web interface
-* JDBC or Spring Boot backend
-* More detailed transaction types
 
 ## Author
 

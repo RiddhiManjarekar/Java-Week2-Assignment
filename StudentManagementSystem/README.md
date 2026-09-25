@@ -32,7 +32,7 @@ A console-based **Student Management System** developed in Java. The application
 
 ## Project Structure
 
-```text
+      
 StudentManagementSystem/
 │
 ├── Main.java
@@ -40,7 +40,7 @@ StudentManagementSystem/
 ├── StudentManager.java
 ├── README.md
 └── students.dat
-```
+   
 
 ### Class Responsibilities
 

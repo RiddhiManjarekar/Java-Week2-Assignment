@@ -1,3 +1,5 @@
+package JDBCIntegration;
+
 import java.util.Scanner;
 
 public class Main {
@@ -6,12 +8,14 @@ public class Main {
 
         EmployeeDAO employeeDAO = new EmployeeDAO();
 
+        employeeDAO.createTables();
+
         Scanner sc = new Scanner(System.in);
 
         int choice;
 
         do {
-            System.out.println("\n===== Employee Management System =====");
+            System.out.println("\n***** Employee Management System *****");
             System.out.println("1. Add Employee");
             System.out.println("2. View All Employees");
             System.out.println("3. Update Employee");
@@ -25,6 +29,8 @@ public class Main {
 
                 case 1:
                     System.out.println("Add Employee");
+
+                    sc.nextLine();
                   
                     System.out.println("Enter name: ");
                     String name=sc.nextLine();
