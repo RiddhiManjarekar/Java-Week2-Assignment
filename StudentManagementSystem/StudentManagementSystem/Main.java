@@ -84,8 +84,8 @@ public class Main {
         while (true) {
             int count = scanInteger(sc, msg);
 
-            if (count <= 0) {
-                System.out.println("Please enter at least 1 subject");
+            if (count <= 0 || count > 10) {
+                System.out.println("Number of subjects must be between 1 and 10");
                 continue;
             }
             return count;
